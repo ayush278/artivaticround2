@@ -56,6 +56,9 @@ class HomeViewBloc extends Bloc<HomeViewEvent, HomeViewState> {
         searchImageList.add(element);
       }
     });
+    if (searchImageList.length == 0) {
+      searchImageList.add(Rows(title: "Not found"));
+    }
     _searchImageListStreamController.value = searchImageList;
   }
 }

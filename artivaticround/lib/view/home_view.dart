@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'package:lazy_load_scrollview/lazy_load_scrollview.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../bloc/home_view_bloc/home_view_bloc.dart';
 import '../bloc/home_view_bloc/home_view_event.dart';
 import '../bloc/home_view_bloc/home_view_state.dart';
