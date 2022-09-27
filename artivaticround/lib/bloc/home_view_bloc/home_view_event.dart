@@ -8,6 +8,5 @@ class InitEvent extends HomeViewEvent {
 
 class ButtonEvent extends HomeViewEvent {
   final BuildContext context;
-  String countryCode;
-  ButtonEvent(this.context, {required this.countryCode});
+  ButtonEvent(this.context);
 }
